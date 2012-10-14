@@ -1,0 +1,48 @@
+
+  ..... .   . .....
+  :...: :. .: :...:
+  :   : :   : :
+
+  ---- Hands-on service state management
+       for your development environments.
+
+  Synopsis
+  --------
+  Amp starts, stops, restarts and reloads configured services independent from
+  init.d or any other operating system specific service management daemon. This
+  gives you back direct control over start options. Amp is "hands-on" in that
+  it lets you directly and "dirtily" add and manipulate service options without
+  the need to deal with more elaborate syntax of more sophisticated service
+  managment systems.
+
+  Copyright & License
+  -------------------
+  Deta is Copyright (c) 2012 David Persson if not otherwise stated.
+  The code is distributed under the terms of the MIT License. For
+  the full license text see the LICENSE file.
+
+  Versions & Requirements
+  -----------------------
+  0.5.0 (in progress)
+
+  The BASH (Bourne-Again SHell) is required. Amp is continously
+  tested with recent BASH versions on Darwin.
+
+  Installation
+  ------------
+  1. Clone the repository or extract a downloaded archive, then switch
+     into the resulting directory.
+
+  2. Create the configuration directory:
+     $ mkdir $HOME/.amp
+
+  3. Install example service configurations:
+     $ cp -r contrib/services $HOME/.amp/
+
+  4. Install the command into your path:
+     $ cp amp.sh /usr/local/bin/
+
+  Example Services
+  ----------------
+  You can find ready-to-use service configurations in the "contrib/services" subdirectory.
+
