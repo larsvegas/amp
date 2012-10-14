@@ -9,15 +9,14 @@
   Synopsis
   --------
   Amp starts, stops, restarts and reloads configured services independent from
-  init.d or any other operating system specific service management daemon. This
-  gives you back direct control over start options. Amp is "hands-on" in that
-  it lets you directly and "dirtily" add and manipulate service options without
-  the need to deal with more elaborate syntax of more sophisticated service
-  managment systems.
+  init.d or any other operating system specific service management daemon. Amp
+  is "hands-on" in that it lets you directly ("dirtily") add and manipulate
+  services and their options without needing to deal with elaborate syntaxes
+  of sophisticated service managment systems.
 
   Copyright & License
   -------------------
-  Deta is Copyright (c) 2012 David Persson if not otherwise stated.
+  Amp is Copyright (c) 2012 David Persson if not otherwise stated.
   The code is distributed under the terms of the MIT License. For
   the full license text see the LICENSE file.
 
@@ -44,5 +43,6 @@
 
   Example Services
   ----------------
-  You can find ready-to-use service configurations in the "contrib/services" subdirectory.
+  You can find ready-to-use service configurations in the
+  "contrib/services" subdirectory.
 
