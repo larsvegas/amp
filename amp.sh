@@ -115,7 +115,6 @@ for file in $(ls $CONFIG/services/*.conf 2> /dev/null); do
 	source $file
 	SERVICES+=" $(basename -s .conf $file)"
 done
-echo
 
 # -----------------------------------------------------------
 # Main
