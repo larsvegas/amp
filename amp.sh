@@ -130,11 +130,7 @@ case $COMMAND in
 	start)
 		control_service apache $COMMAND
 		control_service mysql $COMMAND
-
-		msg "Waiting until all services have started."
-		sleep 1
 		echo
-
 
 		OPTIONS="[none]"
 		for _SERVICE in $SERVICES; do
