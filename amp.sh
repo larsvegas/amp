@@ -56,7 +56,7 @@ done
 shift $(expr $OPTIND - 1)
 
 if [[ $# == 0 ]]; then
-	_usage()
+	_usage
 fi
 
 # -----------------------------------------------------------
@@ -160,7 +160,7 @@ case $COMMAND in
 	*)
 		echo "Error: Invalid option '$1'."
 		echo
-		_usage()
+		_usage
 		;;
 esac
 echo
