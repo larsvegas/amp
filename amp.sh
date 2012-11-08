@@ -128,8 +128,8 @@ case $COMMAND in
 		control_service all status
 		;;
 	start)
-		control_service apache $COMMAND
-		control_service mysql $COMMAND
+		#control_service apache $COMMAND
+		#control_service mysql $COMMAND
 		echo
 
 		OPTIONS="[none]"
