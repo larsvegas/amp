@@ -24,9 +24,9 @@ QUIET="n"
 CONFIG="$HOME/.amp"
 VERSION="0.5.0-head"
 
-# -----------------------------------------------------------
-# Usage output
-# -----------------------------------------------------------
+# @FUNCTION: usage
+# @DESCRIPTION:
+# Outputs usage info and command-list
 usage() {
 	echo "Usage: $0 [options] <command>"
 	echo
