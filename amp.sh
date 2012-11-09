@@ -27,7 +27,7 @@ VERSION="0.5.0-head"
 # -----------------------------------------------------------
 # Usage output
 # -----------------------------------------------------------
-_usage() {
+usage() {
 	echo "Usage: $0 [options] <command>"
 	echo
 	echo "Commands:"
@@ -56,7 +56,7 @@ done
 shift $(expr $OPTIND - 1)
 
 if [[ $# == 0 ]]; then
-	_usage
+	usage
 fi
 
 # -----------------------------------------------------------
@@ -160,7 +160,7 @@ case $COMMAND in
 	*)
 		echo "Error: Invalid option '$1'."
 		echo
-		_usage
+		usage
 		;;
 esac
 echo
